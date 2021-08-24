@@ -10,5 +10,6 @@ module.exports = {
     lessVarsFilePathAppendToEndOfContent: false,
     cssLoaderOptions: {},
   }),
-  assetPrefix: subPath,
+  basePath: subPath,
+  assetPrefix: `${subPath}/`,
 };
